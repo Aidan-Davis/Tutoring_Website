@@ -1,31 +1,17 @@
 # Tutoring website
 
-Static React (Vite) site for math tutoring.
+Static site (Vite + React). Anyone can open it in a browser using a normal **https://…** link.
 
-## Put it online
+## Give people a URL
 
-### Option A — Vercel (simplest URL)
+### Free link in one minute (Vercel)
 
-1. Sign in at [vercel.com](https://vercel.com) with GitHub.
-2. **Add New Project** → import this repository.
-3. Leave defaults (Vite: build `npm run build`, output `dist`). Deploy.
-4. Share the `*.vercel.app` link, or add your own domain under Project → Settings → Domains.
+1. Go to [vercel.com](https://vercel.com) and sign in with GitHub.
+2. **Add New… → Project** → import **Tutoring_Website**.
+3. Keep the defaults (build: `npm run build`, output folder: `dist`) and click **Deploy**.
 
-No extra env vars are required for the current mailto contact form.
+Vercel gives you a live address like **`https://tutoring-website.vercel.app`** (the exact name is on the project dashboard). That is a full website URL — paste it, bookmark it, or text it to someone; no path tricks or extra setup.
 
-### Option B — GitHub Pages (free, stays on GitHub)
+### Your own domain (optional)
 
-1. Push this repo (including `.github/workflows/deploy-pages.yml`).
-2. On GitHub: **Settings → Pages → Build and deployment → Source**: choose **GitHub Actions** (not “Deploy from a branch”).
-3. The **Deploy to GitHub Pages** workflow runs on every push to `main`. When it finishes, Pages shows a public URL (often `https://<username>.github.io/<repo>/`).
-
-The workflow sets `VITE_BASE_PATH` to `/<repository-name>/` so assets load correctly on a project site.
-
-### Local preview of a production build
-
-```bash
-npm run build
-npm run preview
-```
-
-For a GitHub-style base path locally: `VITE_BASE_PATH=/Tutoring_Website/ npm run build && npm run preview`
+If you buy a domain (e.g. from Namecheap, Google Domains, Cloudflare), add it under the Vercel project **Settings → Domains** and follow their DNS steps. Then people can use something like **`https://yourname.com`** instead of the `.vercel.app` address.
