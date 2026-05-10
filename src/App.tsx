@@ -32,10 +32,7 @@ export default function App() {
               <h1>
                 Math tutoring built around <em>your</em> interests
               </h1>
-              <p className="hero-lead">
-                We tie the math you need to a small project you care about — useful for motivation and
-                for applications.
-              </p>
+              <p className="hero-lead">I tie the math you need to a project you care about.</p>
               <div className="hero-cta">
                 <a href="#contact" className="btn-primary">
                   Get in touch
@@ -50,23 +47,13 @@ export default function App() {
             <h2 id="about" className="section-anchor" tabIndex={-1}>
               About
             </h2>
-            <ul className="about-bullets">
-              <li>
-                <strong>Experience:</strong> High school and college math tutoring, including Purdue and
-                Mathnasium.
-              </li>
-              <li>
-                <strong>Degrees:</strong> BS Mathematics and BS Computer Science from Purdue University.
-              </li>
-              <li>
-                <strong>Day job:</strong> AI cybersecurity programmer — real-world technical depth for
-                problem-solving and technical projects.
-              </li>
-              <li>
-                <strong>Best fit:</strong> Students who stay organized and follow through between sessions.
-                Remote only.
-              </li>
-            </ul>
+            <p className="about-intro">
+              I&apos;m a husband and father in the Royal Oak area. I have a passion for teaching math, and
+              have been tutoring since early high school. I have worked with a wide range of students, from
+              elementary schoolers learning division to undergraduate math majors learning abstract algebra
+              and differential equations. I hold a BS in Mathematics and Computer Science from Purdue
+              University, and work as a programmer for AI Cybersecurity solutions.
+            </p>
           </div>
         </section>
 

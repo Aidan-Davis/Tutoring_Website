@@ -9,8 +9,8 @@
   --accent-bright: #60a5fa;
   --accent-dim: rgba(59, 130, 246, 0.12);
   --glow: rgba(59, 130, 246, 0.35);
-  --font-sans: "DM Sans", system-ui, sans-serif;
-  --font-display: "Instrument Serif", Georgia, serif;
+  /* Inter loads from Google Fonts for the same look everywhere; generic sans if fonts are blocked */
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --radius: 12px;
   --max: 1100px;
 }
