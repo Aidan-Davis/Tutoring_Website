@@ -1,6 +1,9 @@
 import { ContactForm, TUTOR_EMAIL } from "./components/ContactForm";
 import "./App.css";
 
+const TUTOR_PHONE_DISPLAY = "602-501-5545";
+const TUTOR_PHONE_TEL = "+16025015545";
+
 export default function App() {
   return (
     <div className="site">
@@ -33,6 +36,11 @@ export default function App() {
                 Math tutoring built around <em>your</em> interests
               </h1>
               <p className="hero-lead">I tie the math you need to a project you care about.</p>
+              <p className="hero-consult">
+                <span className="hero-consult-label">Free 15-minute consultation</span>
+                {" · "}
+                <a href={`tel:${TUTOR_PHONE_TEL}`}>{TUTOR_PHONE_DISPLAY}</a>
+              </p>
               <div className="hero-cta">
                 <a href="#contact" className="btn-primary">
                   Get in touch
@@ -105,6 +113,13 @@ export default function App() {
             <h2 id="contact" className="section-anchor" tabIndex={-1}>
               Contact
             </h2>
+            <div className="contact-callout">
+              <p>
+                <strong>Free 15-minute consultation</strong> — call or text{" "}
+                <a href={`tel:${TUTOR_PHONE_TEL}`}>{TUTOR_PHONE_DISPLAY}</a>
+                . Use the form below to ask about availability and tell me about your student.
+              </p>
+            </div>
             <p className="contact-email">
               <a href={`mailto:${TUTOR_EMAIL}`}>{TUTOR_EMAIL}</a>
             </p>

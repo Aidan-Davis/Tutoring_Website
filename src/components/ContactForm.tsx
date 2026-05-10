@@ -7,6 +7,7 @@ function buildMailto(form: HTMLFormElement): string {
   const grade = String(fd.get("grade_level") ?? "").trim();
   const currentMath = String(fd.get("current_math") ?? "").trim();
   const interests = String(fd.get("interests") ?? "").trim();
+  const availability = String(fd.get("availability") ?? "").trim();
   const message = String(fd.get("message") ?? "").trim();
 
   const subject = `Tutoring inquiry — ${name || "website form"}`;
@@ -24,6 +25,9 @@ function buildMailto(form: HTMLFormElement): string {
     "",
     "Interests (for project ideas):",
     interests,
+    "",
+    "Availability / preferred times:",
+    availability,
     "",
   ];
   if (message) {
@@ -97,11 +101,20 @@ export function ContactForm() {
           />
         </label>
         <label className="field field-full">
+          <span>When are you or your child usually free? What times work best?</span>
+          <textarea
+            name="availability"
+            required
+            rows={3}
+            placeholder="e.g. weekday evenings after 5, Sunday afternoons, only during winter break…"
+          />
+        </label>
+        <label className="field field-full">
           <span>Anything else? (optional)</span>
           <textarea
             name="message"
             rows={3}
-            placeholder="Scheduling preferences, learning goals, questions…"
+            placeholder="Learning goals, questions, anything I should know…"
           />
         </label>
       </div>
