@@ -22,10 +22,10 @@ export default function App() {
           <div className="hero-photo-wrap">
             <img
               className="hero-photo"
-              src="/profile.jpeg"
+              src="/headshot.jpeg"
               alt="Portrait of Aidan Davis"
-              width={1200}
-              height={480}
+              width={585}
+              height={498}
             />
           </div>
           <div className="hero-inner">

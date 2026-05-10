@@ -76,14 +76,16 @@
 .hero-photo-wrap {
   max-width: var(--max);
   margin: 0 auto 1.25rem;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-photo {
   display: block;
-  width: 100%;
-  height: clamp(140px, 28vw, 220px);
-  object-fit: cover;
-  object-position: center 22%;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: min(52vh, 480px);
   border-radius: var(--radius);
   border: 1px solid var(--border);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
