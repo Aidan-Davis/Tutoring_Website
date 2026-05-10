@@ -70,7 +70,23 @@
 }
 
 .hero {
-  padding: clamp(3rem, 8vw, 6rem) 1.5rem 4rem;
+  padding: 1.25rem 1.5rem 2.25rem;
+}
+
+.hero-photo-wrap {
+  max-width: var(--max);
+  margin: 0 auto 1.25rem;
+}
+
+.hero-photo {
+  display: block;
+  width: 100%;
+  height: clamp(140px, 28vw, 220px);
+  object-fit: cover;
+  object-position: center 22%;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
 }
 
 .hero-inner {
@@ -89,12 +105,12 @@
 
 .hero h1 {
   font-family: var(--font-display);
-  font-size: clamp(2.35rem, 5vw, 3.5rem);
+  font-size: clamp(2rem, 4.2vw, 2.85rem);
   font-weight: 400;
   line-height: 1.15;
   letter-spacing: -0.02em;
-  margin: 0 0 1.25rem;
-  max-width: 18ch;
+  margin: 0 0 0.85rem;
+  max-width: 22ch;
 }
 
 .hero h1 em {
@@ -103,22 +119,17 @@
 }
 
 .hero-lead {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   color: var(--text-muted);
-  max-width: 52ch;
-  margin: 0 0 2rem;
+  max-width: 48ch;
+  margin: 0 0 1.35rem;
 }
 
 .hero-cta {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 1.25rem;
-}
-
-.hero-meta {
-  font-size: 0.95rem;
-  color: var(--text-muted);
+  gap: 1rem;
 }
 
 .btn-primary {
@@ -150,7 +161,7 @@
 }
 
 .section {
-  padding: 3.5rem 1.5rem;
+  padding: 2.25rem 1.5rem;
 }
 
 .section--alt {
@@ -160,7 +171,7 @@
 }
 
 .section--contact {
-  padding-bottom: 5rem;
+  padding-bottom: 2.75rem;
 }
 
 .section-inner {
@@ -174,96 +185,34 @@
 
 .section h2 {
   font-family: var(--font-display);
-  font-size: clamp(1.85rem, 3vw, 2.35rem);
+  font-size: clamp(1.65rem, 2.8vw, 2.1rem);
   font-weight: 400;
-  margin: 0 0 1.75rem;
+  margin: 0 0 1.1rem;
   letter-spacing: -0.02em;
 }
 
-.card-grid {
-  display: grid;
-  gap: 1.25rem;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+.about-dense {
+  max-width: 58ch;
 }
 
-.card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.5rem 1.5rem 1.35rem;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset;
-}
-
-.card h3 {
-  margin: 0 0 0.65rem;
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: var(--accent-bright);
-}
-
-.card p {
-  margin: 0;
-  color: var(--text-muted);
+.about-dense p {
+  margin: 0 0 0.85rem;
   font-size: 0.98rem;
-}
-
-.card p strong {
-  color: var(--text);
-}
-
-.philosophy {
-  max-width: 65ch;
-}
-
-.philosophy .lead {
-  font-size: 1.12rem;
-  color: var(--text);
-}
-
-.philosophy p {
+  line-height: 1.6;
   color: var(--text-muted);
 }
 
-.subsection {
-  margin-top: 2.5rem;
-  max-width: 65ch;
+.about-dense p:last-child {
+  margin-bottom: 0;
 }
 
-.subsection h3 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 0 0 0.5rem;
+.about-dense strong {
   color: var(--text);
 }
 
-.subsection p,
-.facts {
-  margin: 0;
-  color: var(--text-muted);
-}
-
-.facts {
-  list-style: none;
-  padding: 0;
-}
-
-.facts li {
-  padding: 0.4rem 0;
-  border-bottom: 1px solid var(--border);
-}
-
-.facts li:last-child {
-  border-bottom: none;
-}
-
-.facts strong {
-  color: var(--text);
-}
-
-.contact-intro {
-  color: var(--text-muted);
-  margin: -0.5rem 0 1.75rem;
-  max-width: 55ch;
+.about-muted {
+  font-size: 0.92rem !important;
+  opacity: 0.95;
 }
 
 .contact-form {
@@ -328,14 +277,6 @@
   min-height: 4rem;
 }
 
-.honeypot {
-  position: absolute;
-  opacity: 0;
-  height: 0;
-  width: 0;
-  pointer-events: none;
-}
-
 .form-feedback {
   margin: 0;
   font-size: 0.95rem;
@@ -363,9 +304,9 @@
 
 .footer {
   margin-top: auto;
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
   text-align: center;
-  font-size: 0.88rem;
+  font-size: 0.82rem;
   color: var(--text-muted);
   border-top: 1px solid var(--border);
 }
