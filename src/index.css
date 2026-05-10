@@ -23,6 +23,8 @@
 
 html {
   scroll-behavior: smooth;
+  /* Sticky header clearance; anchors target h2#about / h2#contact */
+  scroll-padding-top: 3.25rem;
 }
 
 body {

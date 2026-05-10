@@ -1,4 +1,4 @@
-import { ContactForm } from "./components/ContactForm";
+import { ContactForm, TUTOR_EMAIL } from "./components/ContactForm";
 import "./App.css";
 
 export default function App() {
@@ -6,12 +6,10 @@ export default function App() {
     <div className="site">
       <header className="header">
         <div className="header-inner">
-          <a href="#" className="logo">
-            <span className="logo-mark">∑</span>
-            <span>Math tutoring</span>
-          </a>
+          <p className="site-title">Aidan Davis Math Tutoring</p>
           <nav className="nav">
             <a href="#about">About</a>
+            <a href="#how-it-works">How I work</a>
             <a href="#contact">Contact</a>
           </nav>
         </div>
@@ -47,38 +45,86 @@ export default function App() {
           </div>
         </section>
 
-        <section id="about" className="section section--alt">
+        <section className="section section--alt">
           <div className="section-inner">
-            <h2>About &amp; how I work</h2>
-            <div className="about-dense">
-              <p>
-                I tutor high school and college math (including at Purdue and Mathnasium).{" "}
-                <strong>BS Math</strong> and <strong>BS Computer Science</strong> from Purdue; I work as an{" "}
-                <strong>AI cybersecurity programmer</strong>.
-              </p>
-              <p>
-                Sessions are <strong>project-based</strong>: I learn what you are into, connect it to what
-                you are learning, and guide you through something concrete — for example, a little
-                Python lighting demo if you like games and are learning trig.
-              </p>
-              <p className="about-muted">
-                Best fit: students who can stay organized and follow through between sessions. Remote only.
-              </p>
-            </div>
+            <h2 id="about" className="section-anchor" tabIndex={-1}>
+              About
+            </h2>
+            <ul className="about-bullets">
+              <li>
+                <strong>Experience:</strong> High school and college math tutoring, including Purdue and
+                Mathnasium.
+              </li>
+              <li>
+                <strong>Degrees:</strong> BS Mathematics and BS Computer Science from Purdue University.
+              </li>
+              <li>
+                <strong>Day job:</strong> AI cybersecurity programmer — real-world technical depth for
+                problem-solving and technical projects.
+              </li>
+              <li>
+                <strong>Best fit:</strong> Students who stay organized and follow through between sessions.
+                Remote only.
+              </li>
+            </ul>
           </div>
         </section>
 
-        <section id="contact" className="section section--contact">
+        <section className="section">
+          <div className="section-inner">
+            <h2 id="how-it-works" className="section-anchor" tabIndex={-1}>
+              How I work
+            </h2>
+            <div className="how-benefits">
+              <p>
+                <strong>For students,</strong> project-based tutoring means the math lives inside something
+                you actually care about — so ideas stick better and practice feels less like busywork.
+              </p>
+              <p>
+                <strong>For parents,</strong> it means a tangible piece of work your student can talk about on
+                college or internship applications: a small portfolio story, not just a list of topics
+                covered.
+              </p>
+            </div>
+            <h3 className="section-subhead">Five example starting points</h3>
+            <ul className="how-examples">
+              <li>
+                <strong>Trig+Gaming</strong> — build a tiny lighting or camera-angle demo in Python so sine
+                and cosine are doing real on-screen work.
+              </li>
+              <li>
+                <strong>Algebra+Basketball</strong> — turn shooting splits and season trends into plots and
+                equations so you can back up hot takes in the group chat with real numbers.
+              </li>
+              <li>
+                <strong>Stats+Fantasy</strong> — pull league stats into a spreadsheet or small script so that
+                averages, trendlines, and simple probability models turn lineup debates into numbers you can
+                defend.
+              </li>
+              <li>
+                <strong>Geometry+Art</strong> — use perspective scale drawings or simple animation paths so
+                triangles and circles and coordinates show up in characters or rooms you actually draw.
+              </li>
+              <li>
+                <strong>Exponents+Money</strong> — model savings prom budgets or “what if I raise my allowance”
+                so compound growth and percent change read like real life instead of filler problems.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="section section--alt section--contact">
           <div className="section-inner section-inner--narrow">
-            <h2>Contact</h2>
+            <h2 id="contact" className="section-anchor" tabIndex={-1}>
+              Contact
+            </h2>
+            <p className="contact-email">
+              <a href={`mailto:${TUTOR_EMAIL}`}>{TUTOR_EMAIL}</a>
+            </p>
             <ContactForm />
           </div>
         </section>
       </main>
-
-      <footer className="footer">
-        <p>Remote math tutoring</p>
-      </footer>
     </div>
   );
 }

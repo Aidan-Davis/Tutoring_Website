@@ -1,6 +1,4 @@
-import { useState } from "react";
-
-const TUTOR_EMAIL = "aidan.t.davis@gmail.com";
+export const TUTOR_EMAIL = "aidan.t.davis@gmail.com";
 
 function buildMailto(form: HTMLFormElement): string {
   const fd = new FormData(form);
@@ -37,8 +35,6 @@ function buildMailto(form: HTMLFormElement): string {
 }
 
 export function ContactForm() {
-  const [didOpen, setDidOpen] = useState(false);
-
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = e.currentTarget;
@@ -54,7 +50,6 @@ export function ContactForm() {
     }
 
     window.location.href = href;
-    setDidOpen(true);
   }
 
   return (
@@ -110,18 +105,9 @@ export function ContactForm() {
           />
         </label>
       </div>
-      <p className="form-hint">
-        Opens your email app with everything filled in — send the message there to reach{" "}
-        <a href={`mailto:${TUTOR_EMAIL}`}>{TUTOR_EMAIL}</a>.
-      </p>
       <button type="submit" className="btn-primary">
-        Open email with this inquiry
+        Submit
       </button>
-      {didOpen && (
-        <p className="form-feedback form-feedback--ok" role="status">
-          If nothing opened, set a default mail app, or email me directly at the address above.
-        </p>
-      )}
     </form>
   );
 }
