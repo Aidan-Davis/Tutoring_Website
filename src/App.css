@@ -70,30 +70,50 @@
 }
 
 .hero {
-  padding: 1.25rem 1.5rem 2.25rem;
+  padding: 1rem 1.5rem 1.5rem;
 }
 
-.hero-photo-wrap {
+.hero-split {
   max-width: var(--max);
-  margin: 0 auto 1.25rem;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, min(38vw, 260px)) minmax(0, 1fr);
+  gap: clamp(1rem, 3.5vw, 2rem);
+  align-items: center;
+}
+
+.hero-photo-col {
+  justify-self: start;
+  min-width: 0;
 }
 
 .hero-photo {
   display: block;
-  width: auto;
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  max-height: min(52vh, 480px);
+  /* Column width caps size; keep a ceiling so the row stays short */
+  max-height: min(260px, 42vh);
+  object-fit: contain;
+  object-position: left center;
   border-radius: var(--radius);
   border: 1px solid var(--border);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
 }
 
-.hero-inner {
-  max-width: var(--max);
-  margin: 0 auto;
+.hero-copy {
+  min-width: 0;
+}
+
+@media (max-width: 700px) {
+  .hero-split {
+    grid-template-columns: 1fr;
+    gap: 1.1rem;
+  }
+
+  .hero-photo {
+    max-height: min(240px, 40vh);
+    max-width: min(260px, 85vw);
+  }
 }
 
 .eyebrow {
@@ -102,17 +122,17 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--accent-bright);
-  margin: 0 0 1rem;
+  margin: 0 0 0.55rem;
 }
 
 .hero h1 {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 4.2vw, 2.85rem);
+  font-size: clamp(1.75rem, 3.8vw, 2.55rem);
   font-weight: 400;
   line-height: 1.15;
   letter-spacing: -0.02em;
-  margin: 0 0 0.85rem;
-  max-width: 22ch;
+  margin: 0 0 0.55rem;
+  max-width: none;
 }
 
 .hero h1 em {
@@ -121,10 +141,11 @@
 }
 
 .hero-lead {
-  font-size: 1.05rem;
+  font-size: 0.98rem;
   color: var(--text-muted);
-  max-width: 48ch;
-  margin: 0 0 1.35rem;
+  max-width: 42ch;
+  margin: 0 0 0.9rem;
+  line-height: 1.5;
 }
 
 .hero-cta {

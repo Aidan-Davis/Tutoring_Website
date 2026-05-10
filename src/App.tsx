@@ -19,28 +19,30 @@ export default function App() {
 
       <main>
         <section className="hero">
-          <div className="hero-photo-wrap">
-            <img
-              className="hero-photo"
-              src="/headshot.jpeg"
-              alt="Portrait of Aidan Davis"
-              width={585}
-              height={498}
-            />
-          </div>
-          <div className="hero-inner">
-            <p className="eyebrow">Remote · $60/hr · Project-based</p>
-            <h1>
-              Math tutoring built around <em>your</em> interests
-            </h1>
-            <p className="hero-lead">
-              We tie the math you need to a small project you care about — useful for motivation and for
-              applications.
-            </p>
-            <div className="hero-cta">
-              <a href="#contact" className="btn-primary">
-                Get in touch
-              </a>
+          <div className="hero-split">
+            <div className="hero-photo-col">
+              <img
+                className="hero-photo"
+                src="/headshot.jpeg"
+                alt="Portrait of Aidan Davis"
+                width={585}
+                height={498}
+              />
+            </div>
+            <div className="hero-copy">
+              <p className="eyebrow">Remote · $60/hr · Project-based</p>
+              <h1>
+                Math tutoring built around <em>your</em> interests
+              </h1>
+              <p className="hero-lead">
+                We tie the math you need to a small project you care about — useful for motivation and
+                for applications.
+              </p>
+              <div className="hero-cta">
+                <a href="#contact" className="btn-primary">
+                  Get in touch
+                </a>
+              </div>
             </div>
           </div>
         </section>
