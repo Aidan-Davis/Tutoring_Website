@@ -246,6 +246,12 @@
   margin-top: 0;
 }
 
+.section-inner > h3.fit-heading {
+  margin: 2rem 0 0.65rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
 .section-anchor {
   scroll-margin-top: 0.35rem;
 }

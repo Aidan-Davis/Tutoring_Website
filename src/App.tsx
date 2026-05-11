@@ -13,7 +13,7 @@ export default function App() {
           <nav className="nav">
             <a href="#about">About</a>
             <a href="#methodology">Methodology</a>
-            <a href="#approach">Approach</a>
+            <a href="#benefits">Benefits</a>
             <a href="#pricing">Pricing</a>
             <a href="#contact">Contact</a>
           </nav>
@@ -116,7 +116,7 @@ export default function App() {
                 might have. Plus, I love to get to know my students and learn from them too!
               </p>
             </div>
-            <h3>You may be a good fit if you…</h3>
+            <h3 className="fit-heading">You may be a good fit if you…</h3>
             <ul className="fit-list">
               <li>Know that you could get an A when you try, but often lack motivation or find class to be boring</li>
               <li>Feel like you&apos;re not learning enough from classroom instruction</li>
@@ -130,8 +130,8 @@ export default function App() {
 
         <section className="section section--alt">
           <div className="section-inner">
-            <h2 id="approach" className="section-anchor" tabIndex={-1}>
-              What makes project-based tutoring different?
+            <h2 id="benefits" className="section-anchor" tabIndex={-1}>
+              Benefits
             </h2>
             <h3>For students</h3>
             <div className="prose">
@@ -175,7 +175,7 @@ export default function App() {
               <p>
                 The standard curriculum offered in schools often restricts students&apos; natural curiosity
                 and fails to support them to achieve their full potential, especially when they are
-                performing <strong>above grade level</strong>. As a result, you may have a bright student
+                performing above grade level. As a result, you may have a bright student
                 who&apos;s feeling academically
                 limited and emotionally discouraged.{" "}
                 <strong>
