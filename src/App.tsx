@@ -213,12 +213,13 @@ export default function App() {
             </h2>
             <div className="prose">
               <p>
-                <strong>My standard rate is $150 USD per hour of direct instruction.</strong> Payment is preferred via
-                Venmo or Zelle. This rate reflects the effort and expertise needed to design a custom project for each
-                student. All sessions are conducted via Zoom.
+                <strong>My standard rate is $150 USD per hour of direct instruction.</strong> This price reflects the
+                expertise and hours of prep time it takes to design a custom and engaging project. Payment is
+                preferred via Venmo or Zelle. This rate reflects the effort and expertise needed to design a custom
+                project for each student. All sessions are conducted via Zoom.
               </p>
               <p>
-                I have a 24-hour cancellation policy. Any sessions cancelled within 24 hours of the start of
+                I have a 24-hour cancellation policy. Any sessions canceled within 24 hours of the start of
                 the session will be charged at full price. I value my students&apos; growth and our coaching
                 relationship will be most effective when we can both consistently show up prepared and on
                 time.
