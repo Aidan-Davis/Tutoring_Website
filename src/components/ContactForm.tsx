@@ -148,7 +148,7 @@ export function ContactForm() {
           />
         </label>
         <label className="field field-full">
-          <span>What math are you or your child learning right now?</span>
+          <span>What topics in math are you or your child learning right now?</span>
           <textarea
             name="current_math"
             required
