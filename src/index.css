@@ -1,15 +1,15 @@
 :root {
-  --bg-deep: #05070a;
-  --bg-card: #0c1018;
-  --bg-elevated: #111827;
-  --border: rgba(59, 130, 246, 0.22);
-  --text: #e8edf5;
-  --text-muted: #94a3b8;
-  --accent: #3b82f6;
-  --accent-bright: #60a5fa;
-  --accent-dim: rgba(59, 130, 246, 0.12);
-  --glow: rgba(59, 130, 246, 0.35);
-  /* Inter loads from Google Fonts for the same look everywhere; generic sans if fonts are blocked */
+  --bg-deep: #020c45;
+  --bg-mid: #00167a;
+  --bg-card: rgba(0, 22, 122, 0.55);
+  --bg-elevated: rgba(0, 22, 122, 0.85);
+  --border: rgba(204, 163, 0, 0.28);
+  --text: #eef2ff;
+  --text-muted: rgba(238, 242, 255, 0.78);
+  --gold: #cca300;
+  --gold-bright: #e4bc1a;
+  --gold-dim: rgba(204, 163, 0, 0.14);
+  --glow: rgba(204, 163, 0, 0.32);
   --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --radius: 12px;
   --max: 1100px;
@@ -23,7 +23,6 @@
 
 html {
   scroll-behavior: smooth;
-  /* Sticky header clearance; anchors target h2#about / h2#contact */
   scroll-padding-top: 3.25rem;
 }
 
@@ -36,8 +35,8 @@ body {
   color: var(--text);
   background: var(--bg-deep);
   background-image:
-    radial-gradient(ellipse 120% 80% at 50% -20%, rgba(59, 130, 246, 0.18), transparent),
-    radial-gradient(ellipse 60% 40% at 100% 50%, rgba(30, 64, 175, 0.08), transparent);
+    radial-gradient(ellipse 100% 70% at 50% -15%, rgba(0, 22, 122, 0.55), transparent 55%),
+    radial-gradient(ellipse 50% 45% at 100% 40%, rgba(204, 163, 0, 0.06), transparent);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -46,7 +45,7 @@ body {
 }
 
 a {
-  color: var(--accent-bright);
+  color: var(--gold-bright);
   text-decoration: none;
 }
 

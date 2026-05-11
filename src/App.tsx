@@ -12,7 +12,9 @@ export default function App() {
           <p className="site-title">Aidan Davis Math Tutoring</p>
           <nav className="nav">
             <a href="#about">About</a>
-            <a href="#how-it-works">How I work</a>
+            <a href="#services">Services</a>
+            <a href="#approach">Approach</a>
+            <a href="#pricing">Pricing</a>
             <a href="#contact">Contact</a>
           </nav>
         </div>
@@ -31,7 +33,7 @@ export default function App() {
               />
             </div>
             <div className="hero-copy">
-              <p className="eyebrow">Remote · $60/hr · Project-based</p>
+              <p className="eyebrow">Online · Project-based · $150/hr</p>
               <h1>
                 Math tutoring built around <em>your</em> interests
               </h1>
@@ -53,58 +55,154 @@ export default function App() {
         <section className="section section--alt">
           <div className="section-inner">
             <h2 id="about" className="section-anchor" tabIndex={-1}>
-              About
+              About me
             </h2>
-            <p className="about-intro">
-              I&apos;m a husband and father in the Royal Oak area. I have a passion for teaching math, and
-              have been tutoring since early high school. I have worked with a wide range of students, from
-              elementary schoolers learning division to undergraduate math majors learning abstract algebra
-              and differential equations. I hold a BS in Mathematics and Computer Science from Purdue
-              University, and work as a programmer for AI Cybersecurity solutions.
-            </p>
+            <div className="prose">
+              <p>
+                I&apos;m a husband and father residing in Royal Oak, Michigan. I have a lifelong passion for
+                math, and I&apos;ve now been tutoring for 7 years. I&apos;ve had experience
+                working with a wide variety of students of all grade levels, from elementary school kids
+                learning division to university undergraduates learning abstract algebra and differential
+                equations. I hold a B.S. in Mathematics and a B.S. in Computer Science from Purdue University,
+                and I currently work as an AI cybersecurity programmer. In my free time, I&apos;m also
+                interested in linguistics and Ancient Greek.
+              </p>
+            </div>
           </div>
         </section>
 
         <section className="section">
           <div className="section-inner">
-            <h2 id="how-it-works" className="section-anchor" tabIndex={-1}>
-              How I work
+            <h2 id="services" className="section-anchor" tabIndex={-1}>
+              My services
             </h2>
-            <div className="how-benefits">
+            <div className="prose">
               <p>
-                <strong>For students,</strong> project-based tutoring means the math lives inside something
-                you actually care about — so ideas stick better and practice feels less like busywork.
+                My current services are focused on the content covered in high school and university level
+                math courses, but interested students of all ages are welcome. My priority is project-based
+                tutoring, where students learn by creating a project that relates math concepts to a personal
+                interest of their choice.
               </p>
               <p>
-                <strong>For parents,</strong> it means a tangible piece of work your student can talk about on
-                college or internship applications: a small portfolio story, not just a list of topics
-                covered.
+                In contrast with traditional tutoring that only helps you complete homework or pass an exam,
+                I work as more of an all-around academic coach—my educational approach focuses on building
+                foundational skills instead of simply cramming for tests. I believe that when students are
+                taught to really understand the material rather than just memorizing it, they can not only
+                achieve more long-term success, but also feel more engaged and confident.
+              </p>
+              <p>
+                As a result, this is a premium service primarily targeted towards students who are
+                underchallenged in the classroom and motivated to dig deeper. Each plan is custom-made to
+                support the individual student&apos;s goals rather than being a generic textbook review
+                session or a one-size-fits-all &quot;how do I pass this test&quot; study guide. I encourage
+                students to go beyond the boundaries of their current grade level, pursue whatever intrigues
+                them, and use their skills to create real-world impact. Please understand that I am
+                currently not taking on students who specifically require remedial or &quot;crash
+                course&quot; tutoring.
+              </p>
+              <p>
+                I can also offer guidance on much more than just the course material—we can talk about how
+                to focus better, how to make learning fun, advice for transitioning from high school to
+                university and from being a student to being part of the workforce, and any other concerns you
+                might have. Plus, I love to get to know my students and learn from them too!
               </p>
             </div>
-            <h3 className="section-subhead">Five example starting points</h3>
-            <ul className="how-examples">
-              <li>
-                <strong>Trig+Gaming</strong> — build a tiny lighting or camera-angle demo in Python so sine
-                and cosine are doing real on-screen work.
-              </li>
-              <li>
-                <strong>Algebra+Basketball</strong> — turn shooting splits and season trends into plots and
-                equations so you can back up hot takes in the group chat with real numbers.
-              </li>
-              <li>
-                <strong>Stats+Fantasy</strong> — pull league stats into a spreadsheet or small script so that
-                averages, trendlines, and simple probability models turn lineup debates into numbers you can
-                defend.
-              </li>
-              <li>
-                <strong>Geometry+Art</strong> — use perspective scale drawings or simple animation paths so
-                triangles and circles and coordinates show up in characters or rooms you actually draw.
-              </li>
-              <li>
-                <strong>Exponents+Money</strong> — model savings prom budgets or “what if I raise my allowance”
-                so compound growth and percent change read like real life instead of filler problems.
-              </li>
+            <h3>You may be a good fit if you…</h3>
+            <ul className="fit-list">
+              <li>Know that you could get an A when you try, but often lack motivation or find class to be boring</li>
+              <li>Feel like you&apos;re not learning enough from classroom instruction</li>
+              <li>Want to build a strong application to impress university admissions</li>
+              <li>Struggle to focus and need advice from someone who gets it</li>
+              <li>Have wondered how what you learn in school is actually useful in real life</li>
+              <li>Would describe yourself as an inquisitive, driven, or creative person</li>
             </ul>
+          </div>
+        </section>
+
+        <section className="section section--alt">
+          <div className="section-inner">
+            <h2 id="approach" className="section-anchor" tabIndex={-1}>
+              What makes project-based tutoring different?
+            </h2>
+            <h3>For students</h3>
+            <div className="prose">
+              <p>
+                A lot of math lessons revolve around boring, repetitive exercises, and it can be really hard
+                to feel motivated to practice when the work doesn&apos;t feel related to anything you care
+                about in the real world. Plus, learning can feel stressful when it&apos;s always revolving
+                around homework, tests, and grades.
+              </p>
+              <p>
+                Project-based tutoring means I&apos;ll work with you to fit the math to something that
+                excites you outside of the classroom, whether that&apos;s gaming, sports, art, technology, or
+                any other topic that matters to you. You get to take the lead with regards to what your
+                learning goals, topics of interest, and questions are. Instead of a stack of completed
+                worksheets, you&apos;ll be able to walk away with a finished project that you can actually
+                be proud of!
+              </p>
+              <p>
+                At the same time, I&apos;ll still be equipping you to be successful in your regular school
+                courses, so don&apos;t worry: the work we do together will still be helpful for your upcoming
+                exam. I would love to see what you&apos;re working on in class—content from your textbook,
+                homework you&apos;ve completed, past quiz results—and I&apos;ll design the project so that you
+                learn exactly what you need to get ahead in school, while building something you&apos;re
+                interested in.
+              </p>
+              <p>
+                Many high school students worry about getting into college, and having a portfolio of personal
+                projects can be a great thing to show off when you&apos;re applying to schools. Admissions
+                officers see thousands of applications every day and they&apos;re always looking to spot the
+                students who are different. Instead of talking about the same math course or standardized
+                test that everyone else also took, you&apos;ll be able to confidently prove that
+                you&apos;re someone who can think outside the box and knows how to apply what you&apos;ve
+                learned on your own.
+              </p>
+            </div>
+            <h3>For parents</h3>
+            <div className="prose">
+              <p>
+                The standard curriculum offered in schools often restricts students&apos; natural curiosity
+                and fails to support them to achieve their full potential, especially when they are performing
+                above grade level. As a result, you may have a bright student who&apos;s feeling academically
+                limited and emotionally discouraged. Project-based tutoring helps students develop meaningful
+                connections with their education, guiding and inspiring them to go above and beyond.
+                It&apos;s also a great way for students to continue learning and get a head start when school
+                isn&apos;t in session during the summer.
+              </p>
+              <p>
+                Additionally, many academic institutions are now more interested in seeing real-world results
+                than in simply looking at grades or test scores. Contrary to many parents&apos; expectations,
+                students often have a hard time getting accepted even if they have excellent performance in
+                school or on standardized tests, which can be a difficult experience for families who know that
+                their child has a lot to offer and wants to see them succeed. Many popular math extracurriculars
+                (such as contests and online courses) require extensive effort without actually offering any
+                meaningful advantage in the admissions process, causing students undue stress and wasting
+                their time. A completed project is a unique, tangible accomplishment that helps your child
+                stand out on university and internship applications, unlocking valuable opportunities for
+                their future.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="section">
+          <div className="section-inner">
+            <h2 id="pricing" className="section-anchor" tabIndex={-1}>
+              Pricing
+            </h2>
+            <div className="prose">
+              <p>
+                My standard rate is $150 USD per hour of direct instruction. Payment is preferred via Venmo
+                or Zelle. This rate reflects the effort and expertise needed to design a custom project for
+                each student. All sessions are conducted via Zoom.
+              </p>
+              <p>
+                I have a 24-hour cancellation policy. Any sessions cancelled within 24 hours of the start of
+                the session will be charged at full price. I value my students&apos; growth and our coaching
+                relationship will be most effective when we can both consistently show up prepared and on
+                time.
+              </p>
+            </div>
           </div>
         </section>
 
