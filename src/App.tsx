@@ -177,22 +177,30 @@ export default function App() {
                 and fails to support them to achieve their full potential, especially when they are
                 performing <strong>above grade level</strong>. As a result, you may have a bright student
                 who&apos;s feeling academically
-                limited and emotionally discouraged. Project-based tutoring helps students develop meaningful
-                connections with their education, guiding and inspiring them to go above and beyond.
+                limited and emotionally discouraged.{" "}
+                <strong>
+                  Project-based tutoring helps students develop meaningful connections with their education,
+                  guiding and inspiring them to go above and beyond.
+                </strong>{" "}
                 It&apos;s also a great way for students to continue learning and get a head start when school
                 isn&apos;t in session during the summer.
               </p>
               <p>
-                Additionally, many academic institutions are now more interested in seeing{" "}
-                <strong>real-world results</strong> than in simply looking at grades or test scores. Contrary to many parents&apos; expectations,
+                <strong>
+                  Additionally, many academic institutions are now more interested in seeing real-world results
+                  than in simply looking at grades or test scores.
+                </strong>{" "}
+                Contrary to many parents&apos; expectations,
                 students often have a hard time getting accepted even if they have excellent performance in
                 school or on standardized tests, which can be a difficult experience for families who know that
                 their child has a lot to offer and wants to see them succeed. Many popular math extracurriculars
                 (such as contests and online courses) require extensive effort without actually offering any
                 meaningful advantage in the admissions process, causing students undue stress and wasting
-                their time. A <strong>completed project</strong> is a unique, tangible accomplishment that helps
-                your child <strong>stand out on university and internship applications</strong>, unlocking
-                valuable opportunities for their future.
+                their time.{" "}
+                <strong>
+                  A completed project is a unique, tangible accomplishment that helps your child stand out on
+                  university and internship applications, unlocking valuable opportunities for their future.
+                </strong>
               </p>
             </div>
           </div>
