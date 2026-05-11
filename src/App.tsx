@@ -59,12 +59,13 @@ export default function App() {
             </h2>
             <div className="prose">
               <p>
-                I have a lifelong passion for math, and I&apos;ve now been tutoring for{" "}
-                <strong>7 years</strong>. My tutoring methodology focuses on guiding the student through a{" "}
+                I have a lifelong passion for math, and I&apos;ve now been{" "}
+                <strong>tutoring for 7 years</strong>. My tutoring methodology focuses on guiding the student
+                through a{" "}
                 <strong>tangible project</strong> that both fits their interests and helps them excel in math.
                 These projects are perfect opportunities for students to explore their interests, advance in
-                math beyond what school offers, and even stand out on{" "}
-                <strong>university and internship applications</strong>.
+                math beyond what school offers, and even{" "}
+                <strong>stand out on university and internship applications</strong>.
               </p>
               <p>
                 I hold a B.S. in Mathematics and a B.S. in Computer Science from Purdue University, and I
@@ -96,8 +97,11 @@ export default function App() {
                 achieve more long-term success, but also feel more engaged and confident.
               </p>
               <p>
-                As a result, this is a premium service primarily targeted towards students who are
-                underchallenged in the classroom and motivated to dig deeper. Each plan is custom-made to
+                <strong>
+                  As a result, this is a premium service primarily targeted towards students who are
+                  underchallenged in the classroom and motivated to dig deeper.
+                </strong>{" "}
+                Each plan is custom-made to
                 support the individual student&apos;s goals rather than being a generic textbook review
                 session or a one-size-fits-all &quot;how do I pass this test&quot; study guide. I encourage
                 students to go beyond the boundaries of their current grade level, pursue whatever intrigues
@@ -138,12 +142,15 @@ export default function App() {
                 around homework, tests, and grades.
               </p>
               <p>
-                <strong>Project-based tutoring</strong> means I&apos;ll work with you to fit the math to something that
-                excites you outside of the classroom, whether that&apos;s gaming, sports, art, technology, or
+                <strong>
+                  Project-based tutoring means I&apos;ll work with you to fit the math to something that
+                  excites you outside of the classroom
+                </strong>
+                , whether that&apos;s gaming, sports, art, technology, or
                 any other topic that matters to you. You get to take the lead with regards to what your
                 learning goals, topics of interest, and questions are. Instead of a stack of completed
-                worksheets, you&apos;ll be able to walk away with a <strong>finished project</strong> that you
-                can actually be proud of!
+                worksheets, you&apos;ll be able to{" "}
+                <strong>walk away with a finished project</strong> that you can actually be proud of!
               </p>
               <p>
                 At the same time, I&apos;ll still be equipping you to be successful in your regular school
@@ -184,7 +191,7 @@ export default function App() {
                 (such as contests and online courses) require extensive effort without actually offering any
                 meaningful advantage in the admissions process, causing students undue stress and wasting
                 their time. A <strong>completed project</strong> is a unique, tangible accomplishment that helps
-                your child stand out on <strong>university and internship applications</strong>, unlocking
+                your child <strong>stand out on university and internship applications</strong>, unlocking
                 valuable opportunities for their future.
               </p>
             </div>
