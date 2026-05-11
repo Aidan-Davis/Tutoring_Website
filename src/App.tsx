@@ -12,7 +12,7 @@ export default function App() {
           <p className="site-title">Aidan Davis Math Tutoring</p>
           <nav className="nav">
             <a href="#about">About</a>
-            <a href="#services">Services</a>
+            <a href="#methodology">Methodology</a>
             <a href="#approach">Approach</a>
             <a href="#pricing">Pricing</a>
             <a href="#contact">Contact</a>
@@ -59,13 +59,17 @@ export default function App() {
             </h2>
             <div className="prose">
               <p>
-                I&apos;m a husband and father residing in Royal Oak, Michigan. I have a lifelong passion for
-                math, and I&apos;ve now been tutoring for 7 years. I&apos;ve had experience
-                working with a wide variety of students of all grade levels, from elementary school kids
-                learning division to university undergraduates learning abstract algebra and differential
-                equations. I hold a B.S. in Mathematics and a B.S. in Computer Science from Purdue University,
-                and I currently work as an AI cybersecurity programmer. In my free time, I&apos;m also
-                interested in linguistics and Ancient Greek.
+                I have a lifelong passion for math, and I&apos;ve now been tutoring for{" "}
+                <strong>7 years</strong>. My tutoring methodology focuses on guiding the student through a{" "}
+                <strong>tangible project</strong> that both fits their interests and helps them excel in math.
+                These projects are perfect opportunities for students to explore their interests, advance in
+                math beyond what school offers, and even stand out on{" "}
+                <strong>university and internship applications</strong>.
+              </p>
+              <p>
+                I hold a B.S. in Mathematics and a B.S. in Computer Science from Purdue University, and I
+                currently work as an AI cybersecurity programmer. I&apos;m also a husband and father living in
+                Royal Oak, MI.
               </p>
             </div>
           </div>
@@ -73,19 +77,20 @@ export default function App() {
 
         <section className="section">
           <div className="section-inner">
-            <h2 id="services" className="section-anchor" tabIndex={-1}>
-              My services
+            <h2 id="methodology" className="section-anchor" tabIndex={-1}>
+              My methodology
             </h2>
             <div className="prose">
               <p>
-                My current services are focused on the content covered in high school and university level
-                math courses, but interested students of all ages are welcome. My priority is project-based
-                tutoring, where students learn by creating a project that relates math concepts to a personal
-                interest of their choice.
+                I focus on the content covered in high school and university level math courses, but
+                interested students of all ages are welcome. My priority is{" "}
+                <strong>project-based tutoring</strong>, where students learn by creating a project that
+                relates math concepts to a personal interest of their choice.
               </p>
               <p>
                 In contrast with traditional tutoring that only helps you complete homework or pass an exam,
-                I work as more of an all-around academic coach—my educational approach focuses on building
+                I work as more of an <strong>all-around academic coach</strong>—my educational approach focuses
+                on building
                 foundational skills instead of simply cramming for tests. I believe that when students are
                 taught to really understand the material rather than just memorizing it, they can not only
                 achieve more long-term success, but also feel more engaged and confident.
@@ -133,12 +138,12 @@ export default function App() {
                 around homework, tests, and grades.
               </p>
               <p>
-                Project-based tutoring means I&apos;ll work with you to fit the math to something that
+                <strong>Project-based tutoring</strong> means I&apos;ll work with you to fit the math to something that
                 excites you outside of the classroom, whether that&apos;s gaming, sports, art, technology, or
                 any other topic that matters to you. You get to take the lead with regards to what your
                 learning goals, topics of interest, and questions are. Instead of a stack of completed
-                worksheets, you&apos;ll be able to walk away with a finished project that you can actually
-                be proud of!
+                worksheets, you&apos;ll be able to walk away with a <strong>finished project</strong> that you
+                can actually be proud of!
               </p>
               <p>
                 At the same time, I&apos;ll still be equipping you to be successful in your regular school
@@ -162,24 +167,25 @@ export default function App() {
             <div className="prose">
               <p>
                 The standard curriculum offered in schools often restricts students&apos; natural curiosity
-                and fails to support them to achieve their full potential, especially when they are performing
-                above grade level. As a result, you may have a bright student who&apos;s feeling academically
+                and fails to support them to achieve their full potential, especially when they are
+                performing <strong>above grade level</strong>. As a result, you may have a bright student
+                who&apos;s feeling academically
                 limited and emotionally discouraged. Project-based tutoring helps students develop meaningful
                 connections with their education, guiding and inspiring them to go above and beyond.
                 It&apos;s also a great way for students to continue learning and get a head start when school
                 isn&apos;t in session during the summer.
               </p>
               <p>
-                Additionally, many academic institutions are now more interested in seeing real-world results
-                than in simply looking at grades or test scores. Contrary to many parents&apos; expectations,
+                Additionally, many academic institutions are now more interested in seeing{" "}
+                <strong>real-world results</strong> than in simply looking at grades or test scores. Contrary to many parents&apos; expectations,
                 students often have a hard time getting accepted even if they have excellent performance in
                 school or on standardized tests, which can be a difficult experience for families who know that
                 their child has a lot to offer and wants to see them succeed. Many popular math extracurriculars
                 (such as contests and online courses) require extensive effort without actually offering any
                 meaningful advantage in the admissions process, causing students undue stress and wasting
-                their time. A completed project is a unique, tangible accomplishment that helps your child
-                stand out on university and internship applications, unlocking valuable opportunities for
-                their future.
+                their time. A <strong>completed project</strong> is a unique, tangible accomplishment that helps
+                your child stand out on <strong>university and internship applications</strong>, unlocking
+                valuable opportunities for their future.
               </p>
             </div>
           </div>
@@ -192,12 +198,13 @@ export default function App() {
             </h2>
             <div className="prose">
               <p>
-                My standard rate is $150 USD per hour of direct instruction. Payment is preferred via Venmo
-                or Zelle. This rate reflects the effort and expertise needed to design a custom project for
+                My standard rate is <strong>$150 USD</strong> per hour of direct instruction. Payment is
+                preferred via <strong>Venmo</strong> or <strong>Zelle</strong>. This rate reflects the effort
+                and expertise needed to design a custom project for
                 each student. All sessions are conducted via Zoom.
               </p>
               <p>
-                I have a 24-hour cancellation policy. Any sessions cancelled within 24 hours of the start of
+                I have a <strong>24-hour cancellation policy</strong>. Any sessions cancelled within 24 hours of the start of
                 the session will be charged at full price. I value my students&apos; growth and our coaching
                 relationship will be most effective when we can both consistently show up prepared and on
                 time.
