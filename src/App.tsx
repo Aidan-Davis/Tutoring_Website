@@ -9,7 +9,7 @@ export default function App() {
     <div className="site">
       <header className="header">
         <div className="header-inner">
-          <p className="site-title">Aidan Davis Math Tutoring</p>
+          <p className="site-title">Choice Math Tutoring</p>
           <nav className="nav">
             <a href="#about">About</a>
             <a href="#methodology">Methodology</a>
@@ -33,7 +33,7 @@ export default function App() {
               />
             </div>
             <div className="hero-copy">
-              <p className="eyebrow">Online · Project-based · $150/hr</p>
+              <p className="eyebrow">1-on-1 · personalized · project based</p>
               <h1>
                 Math tutoring built around <em>your</em> interests
               </h1>
@@ -59,7 +59,7 @@ export default function App() {
             </h2>
             <div className="prose">
               <p>
-                I have a lifelong passion for math, and I&apos;ve now been{" "}
+                Hi, I&apos;m Aidan! I have a lifelong passion for math, and I&apos;ve now been{" "}
                 <strong>tutoring for 7 years</strong>. My tutoring methodology focuses on guiding the student
                 through a{" "}
                 <strong>tangible project</strong> that both fits their interests and helps them excel in math.
