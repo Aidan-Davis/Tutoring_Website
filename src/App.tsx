@@ -9,7 +9,7 @@ export default function App() {
     <div className="site">
       <header className="header">
         <div className="header-inner">
-          <p className="site-title">Choice Math Tutoring</p>
+          <p className="site-title">Choice Math Projects</p>
           <nav className="nav">
             <a href="#about">About</a>
             <a href="#methodology">Methodology</a>
@@ -35,7 +35,7 @@ export default function App() {
             <div className="hero-copy">
               <p className="eyebrow">1-on-1 · personalized · project based</p>
               <h1>
-                Math tutoring built around <em>your</em> interests
+                Advanced math projects built around <em>your</em> interests
               </h1>
               <p className="hero-lead">I tie the math you need to a project you care about.</p>
               <p className="hero-consult">
@@ -60,7 +60,7 @@ export default function App() {
             <div className="prose">
               <p>
                 Hi, I&apos;m Aidan! I have a lifelong passion for math, and I&apos;ve now been{" "}
-                <strong>tutoring for 7 years</strong>. My tutoring methodology focuses on guiding the student
+                <strong>tutoring for 7 years</strong>. My methodology focuses on guiding the student
                 through a{" "}
                 <strong>tangible project</strong> that both fits their interests and helps them excel in math.
                 These projects are perfect opportunities for students to explore their interests, advance in
@@ -85,7 +85,7 @@ export default function App() {
               <p>
                 I focus on the content covered in high school and university level math courses, but
                 interested students of all ages are welcome. My priority is{" "}
-                <strong>project-based tutoring</strong>, where students learn by creating a project that
+                <strong>advanced math projects</strong>, where students learn by creating a project that
                 relates math concepts to a personal interest of their choice.
               </p>
               <p>
@@ -143,8 +143,8 @@ export default function App() {
               </p>
               <p>
                 <strong>
-                  Project-based tutoring means I&apos;ll work with you to fit the math to something that
-                  excites you outside of the classroom
+                  Project-based coaching means I&apos;ll work with you to fit the math you&apos;re learning to
+                  something that excites you outside of the classroom
                 </strong>
                 , whether that&apos;s gaming, sports, art, technology, or
                 any other topic that matters to you. You get to take the lead with regards to what your
@@ -179,7 +179,7 @@ export default function App() {
                 who&apos;s feeling academically
                 limited and emotionally discouraged.{" "}
                 <strong>
-                  Project-based tutoring helps students develop meaningful connections with their education,
+                  Project-based coaching helps students develop meaningful connections with their education,
                   guiding and inspiring them to go above and beyond.
                 </strong>{" "}
                 It&apos;s also a great way for students to continue learning and get a head start when school
