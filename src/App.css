@@ -323,15 +323,6 @@
   color: var(--text);
 }
 
-.contact-email {
-  margin: 0 0 1.25rem;
-  font-size: 1rem;
-}
-
-.contact-email a {
-  word-break: break-all;
-}
-
 .contact-form {
   display: flex;
   flex-direction: column;
