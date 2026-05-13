@@ -10,6 +10,7 @@ export default function App() {
           <nav className="nav">
             <a href="#about">About</a>
             <a href="#methodology">Methodology</a>
+            <a href="#example-projects">Examples</a>
             <a href="#benefits">Benefits</a>
             <a href="#pricing">Pricing</a>
             <a href="#contact">Contact</a>
@@ -65,7 +66,7 @@ export default function App() {
               <p>
                 I hold a B.S. in Mathematics and a B.S. in Computer Science from Purdue University, and I
                 currently work as an AI cybersecurity programmer. I&apos;m also a husband and father living in
-                Royal Oak, MI.
+                Royal Oak, Michigan.
               </p>
             </div>
           </div>
@@ -78,10 +79,15 @@ export default function App() {
             </h2>
             <div className="prose">
               <p>
-                I focus on the content covered in high school and university level math courses, but
+                I focus on the content covered in high-school and university-level math courses, but
                 interested students of all ages are welcome. My priority is{" "}
                 <strong>advanced math projects</strong>, where students learn by creating a project that
-                relates math concepts to a personal interest of their choice.
+                relates math concepts to a personal interest of their choice. Along the way, you can pick up
+                skills like{" "}
+                <strong>
+                  effective AI use, programming, and a new perspective on your favorite interest
+                </strong>
+                .
               </p>
               <p>
                 In contrast with traditional tutoring that only helps you complete homework or pass an exam,
@@ -93,7 +99,7 @@ export default function App() {
               </p>
               <p>
                 <strong>
-                  As a result, this is a premium service primarily targeted towards students who are
+                  As a result, this is a premium service primarily targeted toward students who are
                   underchallenged in the classroom and motivated to dig deeper.
                 </strong>{" "}
                 Each plan is custom-made to
@@ -105,10 +111,10 @@ export default function App() {
                 course&quot; tutoring.
               </p>
               <p>
-                I can also offer guidance on much more than just the course material—we can talk about how
-                to focus better, how to make learning fun, advice for transitioning from high school to
-                university and from being a student to being part of the workforce, and any other concerns you
-                might have. Plus, I love to get to know my students and learn from them too!
+                I can also offer guidance on much more than just the course material—We can talk about things like
+                how to use AI effectively, advice for transitioning from high school to university and from being a
+                student to part of the workforce, and anything else you&apos;re curious about. Plus, I love to get to
+                know my students and learn from them too!
               </p>
             </div>
             <h3 className="fit-heading">You may be a good fit if you…</h3>
@@ -119,6 +125,142 @@ export default function App() {
               <li>Struggle to focus and need advice from someone who gets it</li>
               <li>Have wondered how what you learn in school is actually useful in real life</li>
               <li>Would describe yourself as an inquisitive, driven, or creative person</li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="section section--alt" aria-labelledby="example-projects">
+          <div className="section-inner">
+            <h2 id="example-projects" className="section-anchor" tabIndex={-1}>
+              Example Projects
+            </h2>
+            <ul className="example-project-list">
+              <li className="example-project-card">
+                <span className="example-project-icon example-project-icon--lg" aria-hidden>
+                  <svg viewBox="0 0 32 32" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(-3.25 0)">
+                      <path
+                        d="M10 14h12a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2Z"
+                        stroke="currentColor"
+                        strokeWidth="1.75"
+                      />
+                      <path
+                        d="M8 18H6m20 0h-2M12 22h8M14 10V8a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v2"
+                        stroke="currentColor"
+                        strokeWidth="1.75"
+                        strokeLinecap="round"
+                      />
+                      <circle cx="12" cy="17" r="1.25" fill="currentColor" />
+                      <circle cx="20" cy="17" r="1.25" fill="currentColor" />
+                    </g>
+                  </svg>
+                </span>
+                <div>
+                  <h3 className="example-project-title">AI &amp; Technology</h3>
+                  <p className="example-project-desc">
+                    Love AI? Use derivatives to train your own neural net from scratch and learn how AI works
+                    under the hood.
+                  </p>
+                </div>
+              </li>
+              <li className="example-project-card">
+                <span className="example-project-icon" aria-hidden>
+                  {/* Lucide "gamepad-2" (ISC) — https://lucide.dev/icons/gamepad-2 */}
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <line x1="6" x2="10" y1="11" y2="11" />
+                    <line x1="8" x2="8" y1="9" y2="13" />
+                    <line x1="15" x2="15.01" y1="12" y2="12" />
+                    <line x1="18" x2="18.01" y1="10" y2="10" />
+                    <path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z" />
+                  </svg>
+                </span>
+                <div>
+                  <h3 className="example-project-title">Video Games</h3>
+                  <p className="example-project-desc">
+                    Love Gaming? Use trig and vectors to design a lighting or physics engine in Python.
+                  </p>
+                </div>
+              </li>
+              <li className="example-project-card">
+                <span className="example-project-icon" aria-hidden>
+                  {/* Lucide "paintbrush" (ISC) — https://lucide.dev/icons/paintbrush */}
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="m14.622 17.897-10.68-2.913" />
+                    <path d="M18.376 2.622a1 1 0 1 1 3.002 3.002L17.36 9.643a.5.5 0 0 0 0 .707l.944.944a2.41 2.41 0 0 1 0 3.408l-.944.944a.5.5 0 0 1-.707 0L8.354 7.348a.5.5 0 0 1 0-.707l.944-.944a2.41 2.41 0 0 1 3.408 0l.944.944a.5.5 0 0 0 .707 0z" />
+                    <path d="M9 8c-1.804 2.71-3.97 3.46-6.583 3.948a.507.507 0 0 0-.302.819l7.32 8.883a1 1 0 0 0 1.185.204C12.735 20.405 16 16.792 16 15" />
+                  </svg>
+                </span>
+                <div>
+                  <h3 className="example-project-title">Illustration &amp; Animation</h3>
+                  <p className="example-project-desc">
+                    Love Art? Discover how polynomial functions power the tools in every digital art program.
+                  </p>
+                </div>
+              </li>
+              <li className="example-project-card">
+                <span className="example-project-icon" aria-hidden>
+                  {/* Lucide "book-open" (ISC) — https://lucide.dev/icons/book-open */}
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M12 7v14" />
+                    <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
+                  </svg>
+                </span>
+                <div>
+                  <h3 className="example-project-title">History</h3>
+                  <p className="example-project-desc">
+                    Love History? Use probability theory to analyze texts and prove who really wrote them.
+                  </p>
+                </div>
+              </li>
+              <li className="example-project-card">
+                <span className="example-project-icon" aria-hidden>
+                  {/* Tabler Icons "ball-football" (MIT) — https://tabler.io/icons/icon/ball-football */}
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M3 12a9 9 0 1 0 18 0 9 9 0 1 0-18 0" />
+                    <path d="M12 7l4.76 3.45l-1.76 5.55h-6l-1.76-5.55l4.76-3.45" />
+                    <path d="M12 7v-4m3 13l2.5 3m-.74-8.55l3.74-1.45m-11.44 7.05l-2.56 2.95m.74-8.55l-3.74-1.45" />
+                  </svg>
+                </span>
+                <div>
+                  <h3 className="example-project-title">Sports</h3>
+                  <p className="example-project-desc">
+                    Love Sports? Use Markov chains and linear algebra to optimize game strategy, predict
+                    outcomes, and uncover the hidden mathematics behind winning teams.
+                  </p>
+                </div>
+              </li>
             </ul>
           </div>
         </section>
@@ -142,7 +284,7 @@ export default function App() {
                   something that excites you outside of the classroom
                 </strong>
                 , whether that&apos;s gaming, sports, art, technology, or
-                any other topic that matters to you. You get to take the lead with regards to what your
+                any other topic that matters to you. You get to take the lead regarding what your
                 learning goals, topics of interest, and questions are. Instead of a stack of completed
                 worksheets, you&apos;ll be able to{" "}
                 <strong>walk away with a finished project</strong> that you can actually be proud of!
@@ -211,7 +353,7 @@ export default function App() {
                 <strong>My standard rate is $150 USD per hour of direct instruction.</strong> This rate reflects the
                 time and expertise needed to design personalized projects for each student&apos;s unique
                 circumstances; every session is backed by hours of preparation spent analyzing your course material,
-                skills, and goals, so we can be equipped to make the most out of the time we spend together. Payment is
+                skills, and goals, so we can be equipped to make the most of the time we spend together. Payment is
                 preferred via Venmo or Zelle. All sessions are conducted via Zoom.
               </p>
               <p>
