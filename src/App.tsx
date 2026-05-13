@@ -33,7 +33,7 @@ export default function App() {
             <div className="hero-copy">
               <p className="eyebrow">1-on-1 · personalized · project-based</p>
               <h1>
-                Advanced math projects built around <em>your</em> interests
+                Advanced math &amp; coding projects built around <em>your</em> interests
               </h1>
               <p className="hero-lead">I tie the math you need to a project you care about.</p>
               <p className="hero-consult">
@@ -82,8 +82,15 @@ export default function App() {
                 I focus on the content covered in high-school and university-level math courses, but
                 interested students of all ages are welcome. My priority is{" "}
                 <strong>advanced math projects</strong>, where students learn by creating a project that
-                relates math concepts to a personal interest of their choice. Along the way, you can pick up
-                skills like{" "}
+                relates math concepts to a personal interest of their choice.{" "}
+                <strong>
+                  Coding is a normal part of these projects, so this is a great two-in-one learning
+                  opportunity.
+                </strong>{" "}
+                Many projects can be coded in a number of languages, like{" "}
+                <strong>Python, C, C++, or Java</strong>, so I can design the project around the coding language
+                that best fits the student&apos;s goals. If coding isn&apos;t for you, I am happy to design a
+                no-code project as well. Along the way, you can pick up skills like{" "}
                 <strong>
                   effective AI use, programming, and a new perspective on your favorite interest
                 </strong>
