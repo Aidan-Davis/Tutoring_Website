@@ -30,7 +30,7 @@ export default function App() {
               />
             </div>
             <div className="hero-copy">
-              <p className="eyebrow">1-on-1 · personalized · project based</p>
+              <p className="eyebrow">1-on-1 · personalized · project-based</p>
               <h1>
                 Advanced math projects built around <em>your</em> interests
               </h1>
