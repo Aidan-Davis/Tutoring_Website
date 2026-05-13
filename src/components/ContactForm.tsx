@@ -139,16 +139,16 @@ export function ContactForm() {
           />
         </label>
         <label className="field field-full">
-          <span>What grade are you or your child in?</span>
+          <span>What grade are you in? (Parents: enter your child&apos;s grade.)</span>
           <input
             name="grade_level"
             type="text"
             required
-            placeholder="e.g. 10th grade, sophomore in college"
+            placeholder="e.g. 10th grade, second year of college"
           />
         </label>
         <label className="field field-full">
-          <span>What topics in math are you or your child learning right now?</span>
+          <span>What topics in math are you learning? (Parents: What is your child learning?)</span>
           <textarea
             name="current_math"
             required
@@ -157,7 +157,7 @@ export function ContactForm() {
           />
         </label>
         <label className="field field-full">
-          <span>What are you or your child&apos;s interests?</span>
+          <span>What interests do you or your child have?</span>
           <textarea
             name="interests"
             required
@@ -166,7 +166,7 @@ export function ContactForm() {
           />
         </label>
         <label className="field field-full">
-          <span>When are you or your child usually free? What times work best?</span>
+          <span>When would you or your child usually be available? What times work best?</span>
           <textarea
             name="availability"
             required
@@ -185,7 +185,7 @@ export function ContactForm() {
         <label className="field field-full captcha-field">
           <span className="captcha-label-row">
             <span>
-              Quick check: what is {challenge.a} + {challenge.b}?
+              Quick check: What is {challenge.a} + {challenge.b}?
             </span>
             <button type="button" className="captcha-refresh" onClick={refreshCaptcha}>
               New question

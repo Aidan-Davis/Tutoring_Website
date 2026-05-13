@@ -92,15 +92,13 @@ export default function App() {
                 that best fits the student&apos;s goals. If coding isn&apos;t for you, I am happy to design a
                 no-code project as well. Along the way, you can pick up skills like{" "}
                 <strong>
-                  effective AI use, programming, and a new perspective on your favorite interest
+                  effective AI use, programming, and a new perspective on your favorite interest.
                 </strong>
-                .
               </p>
               <p>
                 In contrast with traditional tutoring that only helps you complete homework or pass an exam,
-                I work as more of an <strong>all-around academic coach</strong>—my educational approach focuses
-                on building
-                foundational skills instead of simply cramming for tests. I believe that when students are
+                I work as more of an <strong>all-around academic coach</strong>—my educational approach focuses on
+                building foundational skills instead of simply cramming for tests. I believe that when students are
                 taught to really understand the material rather than just memorizing it, they can not only
                 achieve more long-term success, but also feel more engaged and confident.
               </p>
@@ -118,10 +116,10 @@ export default function App() {
                 course&quot; tutoring.
               </p>
               <p>
-                I can also offer guidance on much more than just the course material—We can talk about things like
+                I can also offer guidance on much more than just the course material—we can talk about things like
                 how to use AI effectively, advice for transitioning from high school to university and from being a
-                student to part of the workforce, and anything else you&apos;re curious about. Plus, I love to get to
-                know my students and learn from them too!
+                student to part of the workforce, and anything else you&apos;re curious about. Plus, I love getting to
+                know my students and learning from them too!
               </p>
             </div>
             <h3 className="fit-heading">You may be a good fit if you…</h3>
@@ -288,10 +286,9 @@ export default function App() {
               <p>
                 <strong>
                   Project-based coaching means I&apos;ll work with you to fit the math you&apos;re learning to
-                  something that excites you outside of the classroom
-                </strong>
-                , whether that&apos;s gaming, sports, art, technology, or
-                any other topic that matters to you. You get to take the lead regarding what your
+                  something that excites you outside of the classroom,
+                </strong>{" "}
+                whether that&apos;s gaming, sports, art, technology, or any other topic that matters to you. You get to take the lead regarding what your
                 learning goals, topics of interest, and questions are. Instead of a stack of completed
                 worksheets, you&apos;ll be able to{" "}
                 <strong>walk away with a finished project</strong> that you can actually be proud of!
@@ -317,11 +314,10 @@ export default function App() {
             <h3>For parents</h3>
             <div className="prose">
               <p>
-                The standard curriculum offered in schools often restricts students&apos; natural curiosity
-                and fails to support them to achieve their full potential, especially when they are
-                performing above grade level. As a result, you may have a bright student
-                who&apos;s feeling academically
-                limited and emotionally discouraged.{" "}
+                The standard curriculum offered in schools often restricts students&apos; natural curiosity and
+                fails to help them reach their full potential, especially when they are performing above grade level.
+                As a result, you may have a bright student who&apos;s feeling academically limited and emotionally
+                discouraged.{" "}
                 <strong>
                   Project-based coaching helps students develop meaningful connections with their education,
                   guiding and inspiring them to go above and beyond.
