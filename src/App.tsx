@@ -6,7 +6,9 @@ export default function App() {
     <div className="site">
       <header className="header">
         <div className="header-inner">
-          <p className="site-title">Choice Math Projects</p>
+          <a className="site-title" href="https://choicemathprojects.com">
+            Choice Math Projects
+          </a>
           <nav className="nav">
             <a href="#about">About</a>
             <a href="#methodology">Methodology</a>
@@ -332,8 +334,8 @@ export default function App() {
                 </strong>{" "}
                 Contrary to many parents&apos; expectations,
                 students often have a hard time getting accepted even if they have excellent performance in
-                school or on standardized tests, which can be a difficult experience for families who know that
-                their child has a lot to offer and wants to see them succeed. Many popular math extracurriculars
+                school or on standardized tests, which can be a difficult experience for families who know their
+                child has a lot to offer and who want to see the child succeed. Many popular math extracurriculars
                 (such as contests and online courses) require extensive effort without actually offering any
                 meaningful advantage in the admissions process, causing students undue stress and wasting
                 their time.{" "}
@@ -352,18 +354,48 @@ export default function App() {
               Pricing
             </h2>
             <div className="prose">
+              <div className="pricing-packs">
+                <p>
+                  <strong>6 session pack</strong> — $1000 USD
+                </p>
+                <p>
+                  <strong>9 session pack</strong> — $1425 USD
+                </p>
+                <p>
+                  <strong>12 session pack</strong> — $1800 USD
+                </p>
+              </div>
               <p>
-                <strong>My standard rate is $150 USD per hour of direct instruction.</strong> This rate reflects the
-                time and expertise needed to design personalized projects for each student&apos;s unique
-                circumstances; every session is backed by hours of preparation spent analyzing your course material,
-                skills, and goals, so we can be equipped to make the most of the time we spend together. Payment is
-                preferred via Venmo or Zelle. All sessions are conducted via Zoom.
+                Sessions are one hour each over Zoom, usually scheduled once per week.
               </p>
               <p>
-                I have a 24-hour cancellation policy. Any sessions canceled within 24 hours of the start of
-                the session will be charged at full price. I value my students&apos; growth and our coaching
-                relationship will be most effective when we can both consistently show up prepared and on
-                time.
+                Each pack includes an initial 30-minute call with the student. During this call, we will discuss
+                their mathematical ability, goals, and interests, and find a project that suits them. This call helps
+                me tailor each project to the unique goals of the student. This call is not counted as a session and
+                is completely free of charge. If the student isn&apos;t interested in any projects, there is no
+                obligation to pay.
+              </p>
+              <p>
+                I encourage buying in packs because it helps me plan the scope of the project up front. I&apos;m happy
+                to talk about different pack sizes (such as 10 sessions, for example) or about bulk discounts for
+                multiple students. I typically do not go below 6 sessions per pack, because that would not give enough
+                time to complete a quality project. Since each project is unique, we may have to adjust the scope of the
+                project based on the pace of the student&apos;s output. I am always willing to extend packs or adjust project scope
+                so that the student comes out with a finished project. If the student will have many sessions left over
+                after project completion, I am happy to talk about expanding the project or starting a second small
+                project.
+              </p>
+              <p>
+                The quality and completion of the project are highly dependent on the student&apos;s level of effort
+                outside of the sessions. I am happy to answer questions, review code, and provide resources outside of
+                the sessions so that the student is able to make as much progress between sessions as they want.
+              </p>
+              <p>
+                I have a 24-hour cancellation policy. No-shows or cancellations with less than 24 hours of notice will
+                count as a session.
+              </p>
+              <p>
+                Payment is due before the first session via Venmo or Zelle.
               </p>
             </div>
           </div>

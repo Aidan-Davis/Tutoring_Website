@@ -35,6 +35,11 @@
   color: var(--text);
   line-height: 1.25;
   max-width: min(18rem, 48vw);
+  text-decoration: none;
+}
+
+a.site-title:hover {
+  color: var(--gold-bright);
 }
 
 .nav {
@@ -273,6 +278,18 @@
 
 .prose strong {
   color: var(--text);
+}
+
+.prose .pricing-packs {
+  margin: 0 0 1rem;
+}
+
+.prose .pricing-packs p {
+  margin: 0 0 0.35rem;
+}
+
+.prose .pricing-packs p:last-child {
+  margin-bottom: 0;
 }
 
 .fit-list {
