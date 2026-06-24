@@ -369,8 +369,7 @@ export default function App() {
                 <strong>
                   This is not tutoring.</strong>{" "}
                 Each one-hour session is designed to power a full week of independent project work. Between sessions, I
-                answer questions, review code, and provide resources so your student can keep moving forward on their own—not
-                just during our call.
+                answer questions, review code, and provide resources so your student can keep moving forward on their own.
               </p>
               <p>
                 Sessions are one hour each, usually scheduled once per week. They are available over Zoom, or in person by
@@ -383,9 +382,9 @@ export default function App() {
                 free of charge. If the student isn&apos;t interested in any projects, there is no obligation to pay.
               </p>
               <p>
-                The quality and completion of the project depend on the student&apos;s effort between sessions—and that is
-                the point. The sessions set direction and unblock problems; the week between is where the real work and
-                learning happen.
+                The quality and completion of the project are highly dependent on the student&apos;s level of effort
+                outside of the sessions. I am happy to answer questions, review code, and provide resources outside of
+                the sessions so that the student is able to make as much progress between sessions as they want.
               </p>
               <p>
                 I am happy to discuss different package sizes, such as 8 or 10 sessions, but I do not go below 6 sessions
