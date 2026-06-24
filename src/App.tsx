@@ -366,29 +366,31 @@ export default function App() {
                 </p>
               </div>
               <p>
-                Sessions are one hour each over Zoom, usually scheduled once per week.
+                <strong>
+                  This is not tutoring.</strong>{" "}
+                Each one-hour session is designed to power a full week of independent project work. Between sessions, I
+                answer questions, review code, and provide resources so your student can keep moving forward on their own—not
+                just during our call.
               </p>
               <p>
-                Each pack includes an initial 30-minute call with the student. During this call, we will discuss
-                their mathematical ability, goals, and interests, and find a project that suits them. This call helps
-                me tailor each project to the unique goals of the student. This call is not counted as a session and
-                is completely free of charge. If the student isn&apos;t interested in any projects, there is no
-                obligation to pay.
+                Sessions are one hour each, usually scheduled once per week. They are available over Zoom, or in person by
+                request. I encourage students to reach out between sessions whenever they need help staying on track.
               </p>
               <p>
-                I encourage buying in packs because it helps me plan the scope of the project up front. I&apos;m happy
-                to talk about different pack sizes (such as 10 sessions, for example) or about bulk discounts for
-                multiple students. I typically do not go below 6 sessions per pack, because that would not give enough
-                time to complete a quality project. Since each project is unique, we may have to adjust the scope of the
-                project based on the pace of the student&apos;s output. I am always willing to extend packs or adjust project scope
-                so that the student comes out with a finished project. If the student will have many sessions left over
-                after project completion, I am happy to talk about expanding the project or starting a second small
-                project.
+                Each pack includes an initial 30-minute call with the student. During this call, we will discuss their
+                mathematical ability, goals, and interests, and find a project that suits them. This call helps me tailor
+                each project to the unique goals of the student. This call is not counted as a session and is completely
+                free of charge. If the student isn&apos;t interested in any projects, there is no obligation to pay.
               </p>
               <p>
-                The quality and completion of the project are highly dependent on the student&apos;s level of effort
-                outside of the sessions. I am happy to answer questions, review code, and provide resources outside of
-                the sessions so that the student is able to make as much progress between sessions as they want.
+                The quality and completion of the project depend on the student&apos;s effort between sessions—and that is
+                the point. The sessions set direction and unblock problems; the week between is where the real work and
+                learning happen.
+              </p>
+              <p>
+                I am happy to discuss different package sizes, such as 8 or 10 sessions, but I do not go below 6 sessions
+                per pack. In-person sessions at Bamboo of Royal Oak (220 S Main St, Royal Oak, MI 48067) do not incur an
+                extra charge; in-person sessions at other locations may incur an extra charge depending on distance.
               </p>
               <p>
                 I have a 24-hour cancellation policy. No-shows or cancellations with less than 24 hours of notice will
