@@ -356,13 +356,13 @@ export default function App() {
             <div className="prose">
               <div className="pricing-packs">
                 <p>
-                  <strong>6 session pack</strong> — $1000 USD
+                  <strong>6 session pack</strong> — $2500 USD
                 </p>
                 <p>
-                  <strong>9 session pack</strong> — $1425 USD
+                  <strong>9 session pack</strong> — $3500 USD
                 </p>
                 <p>
-                  <strong>12 session pack</strong> — $1800 USD
+                  <strong>12 session pack</strong> — $4500 USD
                 </p>
               </div>
               <p>
