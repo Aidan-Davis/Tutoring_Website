@@ -39,7 +39,7 @@ export default function App() {
               </h1>
               <p className="hero-lead">I tie the math you need to a project you care about.</p>
               <p className="hero-consult">
-                <span className="hero-consult-label">Free 15-minute consultation</span>
+                <span className="hero-consult-label">Free 30-minute consultation</span>
               </p>
               <div className="hero-cta">
                 <a href="#contact" className="btn-primary">
@@ -407,7 +407,7 @@ export default function App() {
             </h2>
             <div className="contact-callout">
               <p>
-                <strong>Free 15-minute consultation</strong>
+                <strong>Free 30-minute consultation</strong>
                 {" — "}
                 Fill out the form below to tell me about your student.
               </p>
