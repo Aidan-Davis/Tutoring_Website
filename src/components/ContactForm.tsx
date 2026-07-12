@@ -139,7 +139,7 @@ export function ContactForm() {
           />
         </label>
         <label className="field field-full">
-          <span>What grade are you in? (Parents: enter your child&apos;s grade.)</span>
+          <span>What grade is the student in?</span>
           <input
             name="grade_level"
             type="text"
@@ -148,7 +148,7 @@ export function ContactForm() {
           />
         </label>
         <label className="field field-full">
-          <span>What topics in math are you learning? (Parents: What is your child learning?)</span>
+          <span>What topics in math is the student learning?</span>
           <textarea
             name="current_math"
             required
@@ -157,16 +157,16 @@ export function ContactForm() {
           />
         </label>
         <label className="field field-full">
-          <span>What interests do you or your child have?</span>
+          <span>What interests does the student have?</span>
           <textarea
             name="interests"
             required
             rows={4}
-            placeholder="Hobbies, career goals, games, sports, music — anything that helps me design a project you care about."
+            placeholder="Hobbies, career goals, games, sports, music — anything that helps me design a project the student cares about."
           />
         </label>
         <label className="field field-full">
-          <span>When would you or your child usually be available? What times work best?</span>
+          <span>When is the student usually available? What times work best?</span>
           <textarea
             name="availability"
             required
