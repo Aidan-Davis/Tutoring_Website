@@ -356,29 +356,30 @@ export default function App() {
             <div className="prose">
               <div className="pricing-packs">
                 <p>
-                  <strong>6 session pack</strong> — $2000 USD
+                  <strong>6 session pack</strong> — <strong>$2000 USD</strong>
                 </p>
                 <p>
-                  <strong>9 session pack</strong> — $2800 USD
+                  <strong>9 session pack</strong> — <strong>$2800 USD</strong>
                 </p>
                 <p>
-                  <strong>12 session pack</strong> — $3600 USD
+                  <strong>12 session pack</strong> — <strong>$3600 USD</strong>
                 </p>
               </div>
               <p>
-                Each session is designed to power a full week of project work. Between sessions, I am available to answer
-                questions, review code, and provide resources to empower the student to keep moving forward. If the
-                student is stuck on a portion of the project between sessions, they never have to wait to get unstuck.
+                Each session is designed to power a full week of project work.{" "}
+                <strong>Between sessions, I am available</strong> to answer questions, review code, and provide resources
+                to empower the student to keep moving forward. If the student is stuck on a portion of the project between
+                sessions, they never have to wait to get unstuck.
               </p>
               <p>
-                Sessions are one hour each, usually scheduled once per week. They are available over Zoom, or in person by
-                request.
+                Sessions are <strong>one hour</strong> each, usually scheduled <strong>once per week</strong>. They are
+                available over Zoom, or in person by request.
               </p>
               <p>
-                Each pack includes an initial 30-minute call with the student. During this call, we will discuss their
-                mathematical ability, goals, and interests, and find a project that suits them. This call helps me tailor
-                each project to the unique goals of the student. This call is not counted as a session and is completely
-                free of charge.
+                Each pack includes an <strong>initial 30-minute call</strong> with the student. During this call, we will
+                discuss their mathematical ability, goals, and interests, and find a project that suits them. This call
+                helps me tailor each project to the unique goals of the student. This call is not counted as a session and
+                is completely <strong>free of charge</strong>.
               </p>
               <p>
                 I am happy to discuss different package sizes, such as 8 or 10 sessions, but I do not go below 6 sessions
@@ -386,15 +387,15 @@ export default function App() {
                 extra charge; in-person sessions at other locations may incur an extra charge depending on distance.
               </p>
               <p>
-                I have a 24-hour cancellation policy. No-shows or cancellations with less than 24 hours of notice will
-                count as a session.
+                I have a <strong>24-hour cancellation policy</strong>. No-shows or cancellations with less than 24 hours of
+                notice will count as a session.
               </p>
               <p>
-                Payment is due before the first session via Venmo or Zelle.
+                Payment is due before the first session via <strong>Venmo or Zelle</strong>.
               </p>
               <p>
-                If this would genuinely help you but cost is standing in the way, please reach out — I am always happy to
-                work within your budget.
+                If this would genuinely help you but cost is standing in the way, please reach out. I am always happy to{" "}
+                <strong>work within your budget</strong>.
               </p>
             </div>
           </div>
