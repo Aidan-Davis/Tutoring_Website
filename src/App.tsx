@@ -356,20 +356,20 @@ export default function App() {
             <div className="prose">
               <div className="pricing-packs">
                 <p>
-                  <strong>6 session pack</strong> — $2500 USD
+                  <strong>6 session pack</strong> — $2000 USD
                 </p>
                 <p>
-                  <strong>9 session pack</strong> — $3500 USD
+                  <strong>9 session pack</strong> — $2800 USD
                 </p>
                 <p>
-                  <strong>12 session pack</strong> — $4500 USD
+                  <strong>12 session pack</strong> — $3600 USD
                 </p>
               </div>
               <p>
-                <strong>
-                  This is not tutoring.</strong>{" "}
                 Each one-hour session is designed to power a full week of independent project work. Between sessions, I
-                answer questions, review code, and provide resources so your student can keep moving forward on their own.
+                am available to answer questions, review code, and provide resources to empower the student to keep
+                moving forward. If the student is stuck on a portion of the project between sessions, they never have to
+                wait to get unstuck.
               </p>
               <p>
                 Sessions are one hour each, usually scheduled once per week. They are available over Zoom, or in person by
@@ -380,11 +380,6 @@ export default function App() {
                 mathematical ability, goals, and interests, and find a project that suits them. This call helps me tailor
                 each project to the unique goals of the student. This call is not counted as a session and is completely
                 free of charge. If the student isn&apos;t interested in any projects, there is no obligation to pay.
-              </p>
-              <p>
-                The quality and completion of the project are highly dependent on the student&apos;s level of effort
-                outside of the sessions. I am happy to answer questions, review code, and provide resources outside of
-                the sessions so that the student is able to make as much progress between sessions as they want.
               </p>
               <p>
                 I am happy to discuss different package sizes, such as 8 or 10 sessions, but I do not go below 6 sessions
