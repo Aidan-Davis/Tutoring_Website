@@ -366,10 +366,9 @@ export default function App() {
                 </p>
               </div>
               <p>
-                Each session is designed to power a full week of project work.{" "}
-                <strong>Between sessions, I am available</strong> to answer questions, review code, and provide resources
-                to empower the student to keep moving forward. If the student is stuck on a portion of the project between
-                sessions, they never have to wait to get unstuck.
+                Each session is designed to power a full week of project work. Between sessions, I am available to answer
+                questions, review code, and provide resources to empower the student to keep moving forward. If the
+                student is stuck on a portion of the project between sessions, they never have to wait to get unstuck.
               </p>
               <p>
                 Sessions are <strong>one hour</strong> each, usually scheduled <strong>once per week</strong>. They are
@@ -394,8 +393,8 @@ export default function App() {
                 Payment is due before the first session via <strong>Venmo or Zelle</strong>.
               </p>
               <p>
-                If this would genuinely help you but cost is standing in the way, please reach out. I am always happy to{" "}
-                <strong>work within your budget</strong>.
+                If this would genuinely help you but cost is standing in the way, please reach out. I am always happy to
+                work within your budget.
               </p>
             </div>
           </div>
