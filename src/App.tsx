@@ -366,20 +366,19 @@ export default function App() {
                 </p>
               </div>
               <p>
-                Each one-hour session is designed to power a full week of independent project work. Between sessions, I
-                am available to answer questions, review code, and provide resources to empower the student to keep
-                moving forward. If the student is stuck on a portion of the project between sessions, they never have to
-                wait to get unstuck.
+                Each session is designed to power a full week of project work. Between sessions, I am available to answer
+                questions, review code, and provide resources to empower the student to keep moving forward. If the
+                student is stuck on a portion of the project between sessions, they never have to wait to get unstuck.
               </p>
               <p>
                 Sessions are one hour each, usually scheduled once per week. They are available over Zoom, or in person by
-                request. I encourage students to reach out between sessions whenever they need help staying on track.
+                request.
               </p>
               <p>
                 Each pack includes an initial 30-minute call with the student. During this call, we will discuss their
                 mathematical ability, goals, and interests, and find a project that suits them. This call helps me tailor
                 each project to the unique goals of the student. This call is not counted as a session and is completely
-                free of charge. If the student isn&apos;t interested in any projects, there is no obligation to pay.
+                free of charge.
               </p>
               <p>
                 I am happy to discuss different package sizes, such as 8 or 10 sessions, but I do not go below 6 sessions
@@ -392,6 +391,10 @@ export default function App() {
               </p>
               <p>
                 Payment is due before the first session via Venmo or Zelle.
+              </p>
+              <p>
+                If this would genuinely help you but cost is standing in the way, please reach out — I am always happy to
+                work within your budget.
               </p>
             </div>
           </div>
