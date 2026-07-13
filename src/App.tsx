@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { ContactForm } from "./components/ContactForm";
 import "./App.css";
 
@@ -416,6 +417,7 @@ export default function App() {
           </div>
         </section>
       </main>
+      <Analytics />
     </div>
   );
 }
