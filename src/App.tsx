@@ -12,8 +12,8 @@ export default function App() {
           </a>
           <nav className="nav">
             <a href="#about">About</a>
-            <a href="#methodology">Methodology</a>
             <a href="#example-projects">Examples</a>
+            <a href="#methodology">Methodology</a>
             <a href="#benefits">Benefits</a>
             <a href="#pricing">Pricing</a>
             <a href="#contact">Contact</a>
@@ -77,69 +77,7 @@ export default function App() {
           </div>
         </section>
 
-        <section className="section">
-          <div className="section-inner">
-            <h2 id="methodology" className="section-anchor" tabIndex={-1}>
-              My methodology
-            </h2>
-            <div className="prose">
-              <p>
-                I focus on the content covered in high-school and university-level math courses, but
-                interested students of all ages are welcome. My priority is{" "}
-                <strong>advanced math projects</strong>, where students learn by creating a project that
-                relates math concepts to a personal interest of their choice.{" "}
-                <strong>
-                  Coding is a normal part of these projects, so this is a great two-in-one learning
-                  opportunity.
-                </strong>{" "}
-                Many projects can be coded in a number of languages, like{" "}
-                <strong>Python, C, C++, or Java</strong>, so I can design the project around the coding language
-                that best fits the student&apos;s goals. If coding isn&apos;t for you, I am happy to design a
-                no-code project as well. Along the way, you can pick up skills like{" "}
-                <strong>
-                  effective AI use, programming, and a new perspective on your favorite interest.
-                </strong>
-              </p>
-              <p>
-                In contrast with traditional tutoring that only helps you complete homework or pass an exam,
-                I work as more of an <strong>all-around academic coach</strong>—my educational approach focuses on
-                building foundational skills instead of simply cramming for tests. I believe that when students are
-                taught to really understand the material rather than just memorizing it, they can not only
-                achieve more long-term success, but also feel more engaged and confident.
-              </p>
-              <p>
-                <strong>
-                  As a result, this is a premium service primarily targeted toward students who are
-                  underchallenged in the classroom and motivated to dig deeper.
-                </strong>{" "}
-                Each plan is custom-made to
-                support the individual student&apos;s goals rather than being a generic textbook review
-                session or a one-size-fits-all &quot;how do I pass this test&quot; study guide. I encourage
-                students to go beyond the boundaries of their current grade level, pursue whatever intrigues
-                them, and use their skills to create real-world impact. Please understand that I am
-                currently not taking on students who specifically require remedial or &quot;crash
-                course&quot; tutoring.
-              </p>
-              <p>
-                I can also offer guidance on much more than just the course material—we can talk about things like
-                how to use AI effectively, advice for transitioning from high school to university and from being a
-                student to part of the workforce, and anything else you&apos;re curious about. Plus, I love getting to
-                know my students and learning from them too!
-              </p>
-            </div>
-            <h3 className="fit-heading">You may be a good fit if you…</h3>
-            <ul className="fit-list">
-              <li>Know that you could get an A when you try, but often lack motivation or find class to be boring</li>
-              <li>Feel like you&apos;re not learning enough from classroom instruction</li>
-              <li>Want to build a strong application to impress university admissions</li>
-              <li>Struggle to focus and need advice from someone who gets it</li>
-              <li>Have wondered how what you learn in school is actually useful in real life</li>
-              <li>Would describe yourself as an inquisitive, driven, or creative person</li>
-            </ul>
-          </div>
-        </section>
-
-        <section className="section section--alt" aria-labelledby="example-projects">
+        <section className="section" aria-labelledby="example-projects">
           <div className="section-inner">
             <h2 id="example-projects" className="section-anchor" tabIndex={-1}>
               Example Projects
@@ -277,6 +215,68 @@ export default function App() {
 
         <section className="section section--alt">
           <div className="section-inner">
+            <h2 id="methodology" className="section-anchor" tabIndex={-1}>
+              My methodology
+            </h2>
+            <div className="prose">
+              <p>
+                I focus on the content covered in high-school and university-level math courses, but
+                interested students of all ages are welcome. My priority is{" "}
+                <strong>advanced math projects</strong>, where students learn by creating a project that
+                relates math concepts to a personal interest of their choice.{" "}
+                <strong>
+                  Coding is a normal part of these projects, so this is a great two-in-one learning
+                  opportunity.
+                </strong>{" "}
+                Many projects can be coded in a number of languages, like{" "}
+                <strong>Python, C, C++, or Java</strong>, so I can design the project around the coding language
+                that best fits the student&apos;s goals. If coding isn&apos;t for you, I am happy to design a
+                no-code project as well. Along the way, you can pick up skills like{" "}
+                <strong>
+                  effective AI use, programming, and a new perspective on your favorite interest.
+                </strong>
+              </p>
+              <p>
+                In contrast with traditional tutoring that only helps you complete homework or pass an exam,
+                I work as more of an <strong>all-around academic coach</strong>—my educational approach focuses on
+                building foundational skills instead of simply cramming for tests. I believe that when students are
+                taught to really understand the material rather than just memorizing it, they can not only
+                achieve more long-term success, but also feel more engaged and confident.
+              </p>
+              <p>
+                <strong>
+                  As a result, this is a premium service primarily targeted toward students who are
+                  underchallenged in the classroom and motivated to dig deeper.
+                </strong>{" "}
+                Each plan is custom-made to
+                support the individual student&apos;s goals rather than being a generic textbook review
+                session or a one-size-fits-all &quot;how do I pass this test&quot; study guide. I encourage
+                students to go beyond the boundaries of their current grade level, pursue whatever intrigues
+                them, and use their skills to create real-world impact. Please understand that I am
+                currently not taking on students who specifically require remedial or &quot;crash
+                course&quot; tutoring.
+              </p>
+              <p>
+                I can also offer guidance on much more than just the course material—we can talk about things like
+                how to use AI effectively, advice for transitioning from high school to university and from being a
+                student to part of the workforce, and anything else you&apos;re curious about. Plus, I love getting to
+                know my students and learning from them too!
+              </p>
+            </div>
+            <h3 className="fit-heading">You may be a good fit if you…</h3>
+            <ul className="fit-list">
+              <li>Know that you could get an A when you try, but often lack motivation or find class to be boring</li>
+              <li>Feel like you&apos;re not learning enough from classroom instruction</li>
+              <li>Want to build a strong application to impress university admissions</li>
+              <li>Struggle to focus and need advice from someone who gets it</li>
+              <li>Have wondered how what you learn in school is actually useful in real life</li>
+              <li>Would describe yourself as an inquisitive, driven, or creative person</li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="section">
+          <div className="section-inner">
             <h2 id="benefits" className="section-anchor" tabIndex={-1}>
               Benefits
             </h2>
@@ -351,7 +351,7 @@ export default function App() {
           </div>
         </section>
 
-        <section className="section">
+        <section className="section section--alt">
           <div className="section-inner">
             <h2 id="pricing" className="section-anchor" tabIndex={-1}>
               Pricing
