@@ -36,10 +36,10 @@ export default function App() {
             <div className="hero-copy">
               <p className="eyebrow">1-on-1 · personalized · project-based</p>
               <h1>
-                Advanced math &amp; coding projects built around <em>your</em> interests
+                Advanced math &amp; coding projects for <em>your</em> interests &amp; goals
               </h1>
               <p className="hero-lead">
-                Turn what they know into work they can show universities and employers.
+                Stand out on university and internship applications
               </p>
               <p className="hero-consult">
                 <span className="hero-consult-label">Free 30-minute consultation</span>
