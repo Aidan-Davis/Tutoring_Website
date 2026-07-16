@@ -61,7 +61,7 @@ export default function App() {
             <div className="prose">
               <p>
                 After seven years mentoring math students, I created Choice Math Projects for advanced
-                students the system was failing. High-achieving students need challenging work and better
+                students the system was failing to serve. High-achieving students need challenging work and better
                 ways to stand out from their peers on university and internship applications. Most
                 importantly, they need to learn how to use their intelligence in real-world scenarios that will
                 matter in their academic and professional careers.
@@ -72,8 +72,8 @@ export default function App() {
                 and industry professional to make sure that each project is academically challenging,
                 engaging, and teaches the skills necessary for the student&apos;s success that the
                 education system fails to teach. My goal is for each student to walk away with a project
-                they can show off on university and internship applications and a renewed curiosity in
-                STEM that will drive them to continue building on their own.
+                they can show on university and internship applications, and with a renewed curiosity in
+                STEM that keeps them building on their own.
               </p>
             </div>
           </div>
@@ -309,7 +309,7 @@ export default function App() {
                 interested in.
               </p>
               <p>
-                Many high school students worry about getting into college, and having a portfolio of personal
+                Many high school students worry about getting into university, and having a portfolio of personal
                 projects can be a great thing to show off when you&apos;re applying to schools. Admissions
                 officers see thousands of applications every day and they&apos;re always looking to spot the
                 students who are different. Instead of talking about the same math course or standardized
