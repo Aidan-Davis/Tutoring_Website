@@ -38,7 +38,9 @@ export default function App() {
               <h1>
                 Advanced math &amp; coding projects built around <em>your</em> interests
               </h1>
-              <p className="hero-lead">I tie the math you need to a project you care about.</p>
+              <p className="hero-lead">
+                Turn what they know into work they can show universities and employers.
+              </p>
               <p className="hero-consult">
                 <span className="hero-consult-label">Free 30-minute consultation</span>
               </p>
