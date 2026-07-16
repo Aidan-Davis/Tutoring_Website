@@ -410,7 +410,7 @@ export default function App() {
               <p>
                 <strong>Free 30-minute consultation</strong>
                 {" — "}
-                Fill out the form below to tell me about your student.
+                Fill out the form below and I&apos;ll get back to you.
               </p>
             </div>
             <ContactForm />

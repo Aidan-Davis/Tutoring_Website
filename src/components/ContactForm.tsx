@@ -11,34 +11,18 @@ function randomDigit(min: number, max: number) {
 function formatInquiryBody(fd: FormData): string {
   const name = String(fd.get("name") ?? "").trim();
   const email = String(fd.get("email") ?? "").trim();
-  const grade = String(fd.get("grade_level") ?? "").trim();
-  const currentMath = String(fd.get("current_math") ?? "").trim();
-  const interests = String(fd.get("interests") ?? "").trim();
-  const availability = String(fd.get("availability") ?? "").trim();
   const message = String(fd.get("message") ?? "").trim();
 
-  const lines = [
+  return [
     "Tutoring inquiry (website form)",
     "",
     `Name: ${name}`,
     `Email: ${email}`,
     "",
-    `Grade level: ${grade}`,
+    "Message:",
+    message,
     "",
-    "Current math / coursework:",
-    currentMath,
-    "",
-    "Interests (for project ideas):",
-    interests,
-    "",
-    "Availability / preferred times:",
-    availability,
-    "",
-  ];
-  if (message) {
-    lines.push("Additional notes:", message, "");
-  }
-  return lines.join("\n");
+  ].join("\n");
 }
 
 export function ContactForm() {
@@ -139,47 +123,12 @@ export function ContactForm() {
           />
         </label>
         <label className="field field-full">
-          <span>What grade is the student in?</span>
-          <input
-            name="grade_level"
-            type="text"
-            required
-            placeholder="e.g. 10th grade, second year of college"
-          />
-        </label>
-        <label className="field field-full">
-          <span>What topics in math is the student learning?</span>
-          <textarea
-            name="current_math"
-            required
-            rows={3}
-            placeholder="e.g. Algebra 2, AP Calculus BC, linear algebra…"
-          />
-        </label>
-        <label className="field field-full">
-          <span>What interests does the student have?</span>
-          <textarea
-            name="interests"
-            required
-            rows={4}
-            placeholder="Hobbies, career goals, games, sports, music — anything that helps me design a project the student cares about."
-          />
-        </label>
-        <label className="field field-full">
-          <span>When is the student usually available? What times work best?</span>
-          <textarea
-            name="availability"
-            required
-            rows={3}
-            placeholder="e.g. weekday evenings after 5, Sunday afternoons, only during winter break…"
-          />
-        </label>
-        <label className="field field-full">
-          <span>Anything else? (optional)</span>
+          <span>Message</span>
           <textarea
             name="message"
-            rows={3}
-            placeholder="Learning goals, questions, anything I should know…"
+            required
+            rows={4}
+            placeholder="Questions, goals, or anything you'd like to share…"
           />
         </label>
         <label className="field field-full captcha-field">
