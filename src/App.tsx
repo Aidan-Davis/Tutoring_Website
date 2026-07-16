@@ -54,22 +54,24 @@ export default function App() {
         <section className="section section--alt">
           <div className="section-inner">
             <h2 id="about" className="section-anchor" tabIndex={-1}>
-              About me
+              About
             </h2>
             <div className="prose">
               <p>
-                Hi, I&apos;m Aidan! I have a lifelong passion for math, and I&apos;ve now been{" "}
-                <strong>tutoring for 7 years</strong>. My methodology focuses on guiding the student
-                through a{" "}
-                <strong>tangible project</strong> that both fits their interests and helps them excel in math.
-                These projects are perfect opportunities for students to explore their interests, advance in
-                math beyond what school offers, and even{" "}
-                <strong>stand out on university and internship applications</strong>.
+                After seven years mentoring math students, I created Choice Math Projects for advanced
+                students the system was failing. High-achieving students need challenging work and better
+                ways to stand out from their peers on university and internship applications. Most
+                importantly, they need to learn how to use their intelligence in real-world scenarios that will
+                matter in their academic and professional careers.
               </p>
               <p>
-                I hold a B.S. in Mathematics and a B.S. in Computer Science from Purdue University, and I
-                currently work as an AI cybersecurity programmer. I&apos;m also a husband and father living in
-                Royal Oak, Michigan.
+                At Choice Math Projects, I guide each student through a custom-designed project that
+                matches their strengths, weaknesses, and goals. I draw on my experience as an educator
+                and industry professional to make sure that each project is academically challenging,
+                engaging, and teaches the skills necessary for the student&apos;s success that the
+                education system fails to teach. My goal is for each student to walk away with a project
+                they can show off on university and internship applications and a renewed curiosity in
+                STEM that will drive them to continue building on their own.
               </p>
             </div>
           </div>
