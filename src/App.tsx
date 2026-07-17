@@ -218,8 +218,17 @@ export default function App() {
         <section className="section section--alt">
           <div className="section-inner">
             <h2 id="methodology" className="section-anchor" tabIndex={-1}>
-              My methodology
+              My Methodology
             </h2>
+            <figure className="methodology-diff">
+              <img
+                className="methodology-diff-img"
+                src="/what-makes-us-different.png"
+                alt="What makes us different: traditional tutoring versus Choice Math Projects"
+                width={1601}
+                height={1601}
+              />
+            </figure>
             <div className="prose">
               <p>
                 I focus on the content covered in high-school and university-level math courses, but

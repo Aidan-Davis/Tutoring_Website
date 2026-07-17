@@ -262,6 +262,20 @@ a.site-title:hover {
   scroll-margin-top: 0.35rem;
 }
 
+.methodology-diff {
+  margin: 0 0 1.75rem;
+  max-width: min(640px, 100%);
+}
+
+.methodology-diff-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.28);
+}
+
 .prose {
   max-width: 70ch;
 }
