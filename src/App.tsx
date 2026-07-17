@@ -39,7 +39,7 @@ export default function App() {
                 Advanced math &amp; coding projects for <em>your</em> interests &amp; goals
               </h1>
               <p className="hero-lead">
-                Real academic depth with results applications notice
+                Real academic depth with results that get noticed
               </p>
               <p className="hero-consult">
                 <span className="hero-consult-label">Free 30-minute consultation</span>
